@@ -4,12 +4,13 @@ pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
 
-contract Transactions {
-    uint256 transactionCount;
+contract Transactions {  // class in OOP
+    uint256 transactionCount;    // simple no. variable to hold no. of transactions
 
+    // function emit/call later on
     event Transfer(address from, address receiver, uint amount, string message, uint256 timestamp, string keyword);
   
-    struct TransferStruct {
+    struct TransferStruct {     // the props this object will have 
         address sender;
         address receiver;
         uint amount;
@@ -18,7 +19,7 @@ contract Transactions {
         string keyword;
     }
 
-    TransferStruct[] transactions;
+    TransferStruct[] transactions;   // defining array of objects 
 
     function addToBlockchain(address payable receiver, uint amount, string memory message, string memory keyword) public {
         transactionCount += 1;
