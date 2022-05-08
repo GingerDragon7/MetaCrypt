@@ -11,18 +11,15 @@ A full-fledged Web 3.0 application that allows users to send transactions throug
 Using Web 3.0 methodologies, Solidity and Metamask, real Web 3.0 React Application
 
 
-
 Here's the feature's included in this project
 
-- 🌐 FULL Ecommerce functionality which includes both back-end and front-end
-- 👨‍👩‍👧‍👦 Login Page
--  📡 Realtime database in Firebase.
+- 🌐 Real World Web 3.0 Application 
+- 👨‍👩‍👧‍👦 Connect a regular React.js application to the blockchain and pair it to your Ethereum wallet using MetaMask
+- 📡 Smart Contracts on the Ethereum network using the Solidity programming language
 - 📦 Full responsive
-- 📦 Products Page
-- 🛒 Cart and Checkout Page
-- 📝 Order History Page (Real time database)
+- 📝 With a stunning design, connected to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network
 - ❄ Awesome animations 
 
 ## Technology stack used:
-ReactJs, Material UI, Context API, React-Courrency-Format, Firebase
+ReactJs, Solidity, Smart Contracts, Crypto
 
